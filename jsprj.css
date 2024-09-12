@@ -1,0 +1,38 @@
+body{
+   text-align: center;
+}
+.box{
+   margin: auto;
+    display: flex;
+    height: 25rem;
+    width: 30rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box div{
+    border: solid black 0.3rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+.purple{
+    background-color: #819ff9 ;
+}
+.red{
+    background-color:#d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.flash{
+    background-color: white;
+}
+.wrong{
+    background-color: red;
+}
